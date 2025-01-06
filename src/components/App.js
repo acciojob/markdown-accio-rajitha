@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
-import ReactMarkdown from "react-markdown"; // npm install react-markdown
+import ReactMarkdown from "react-markdown"; 
 import '../styles/App.css'
 
 function App() {
   const [markdownText, setMarkdownText] = useState("");
   const [loading, setLoading] = useState(true);
 
-  // Simulate loading delay for demo
+  
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 500); // After 500ms, stop showing loading
+    }, 500); 
   }, []);
 
   const handleChange = (e) => {
@@ -40,8 +40,3 @@ function App() {
 
 export default App;
 
-
-
-/*
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
-*/
