@@ -1,3 +1,32 @@
+.app {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .textarea {
+    width: 45%;
+  }
+  
+  .textarea textarea {
+    width: 100%;
+    height: 300px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .preview {
+    width: 45%;
+    padding-left: 20px;
+  }
+  
+  .loading {
+    font-size: 20px;
+    color: gray;
+    font-style: italic;
+  }
+  
+/*
 h1 {
     color: #27aedb;
     text-align: center;
@@ -9,4 +38,4 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
-}
+}*/
